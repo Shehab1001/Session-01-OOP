@@ -1,18 +1,70 @@
 ﻿// ------------------------------------DEMO----------------------------------------------
 
 
+// struct - OOP (Encapsulation)
 
+public struct Employee
+{
+    private string name;
+    private string title;
+    private decimal salary;
 
-public struct Employee {
-    public string name {get; set;}
-    public string title {get; set;}
-    public decimal salary {get; set;}
+    public Employee(string name, string title, decimal salary)
+    {
 
-    public Employee(string name, string title, decimal salary){
-        
         this.name = name;
         this.title = title;
-        this.salary = salary; 
+        this.salary = salary;
+    }
+
+    public string Name
+    {
+        get { return name; }
+
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                throw new ArgumentException("Name Cannot be empty");
+            }
+            name = value;
+        }
+    }
+
+
+    public string Title
+    {
+        get { return title; }
+
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                throw new ArgumentException("Title Cannot be empty");
+            }
+
+            title = value;
+        }
+
+
+    }
+
+    public decimal Salary
+    {
+        get { return salary; }
+
+        set
+        {
+            if (value < 0)
+                throw new ArgumentException("Salary cannot be negative");
+            salary = value;
+        }
+    }
+
+
+    public override string ToString()
+    {
+        return $"name is {Name} and title is {Title} and salary is {Salary:C}";
     }
 
 }
@@ -22,8 +74,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Employee employee = new Employee("Shehab","Software Engineer", 8000);
-        Console.WriteLine($"Name is {employee.name} and his title is {employee.title} and salary is {employee.salary}");
+
+        try
+        {
+            Employee employee = new Employee("Shehab", "Software Engineer", 8000);
+            Console.WriteLine(employee);
+
+           
+        }
+        catch(ArgumentException ex)
+        {
+            System.Console.WriteLine($"Error: {ex.Message}");
+        }
+
 
     }
 }
@@ -31,9 +94,8 @@ class Program
 
 
 
+// -------------------------Assignments-------------------------
 
-
-// Assignments
 
 // ---------------------------- Part 01 -------------------------------------------
 
@@ -467,7 +529,7 @@ class Program
 //         }
 //     }
 // }
- 
+
 #endregion
 
 #region Q4
