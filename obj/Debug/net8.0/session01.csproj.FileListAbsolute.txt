@@ -1,0 +1,15 @@
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\bin\Debug\net8.0\session01.exe
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\bin\Debug\net8.0\session01.deps.json
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\bin\Debug\net8.0\session01.runtimeconfig.json
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\bin\Debug\net8.0\session01.dll
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\bin\Debug\net8.0\session01.pdb
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.GeneratedMSBuildEditorConfig.editorconfig
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.AssemblyInfoInputs.cache
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.AssemblyInfo.cs
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.csproj.CoreCompileInputs.cache
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.sourcelink.json
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.dll
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\refint\session01.dll
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.pdb
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\session01.genruntimeconfig.cache
+F:\Route\Full Stack react-.Net 2023\ASP.NET\Assignment - C#\OOP\session01\obj\Debug\net8.0\ref\session01.dll
