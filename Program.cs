@@ -1,9 +1,32 @@
-﻿// Demo
+﻿// ------------------------------------DEMO----------------------------------------------
 
 
 
 
+public struct Employee {
+    public string name {get; set;}
+    public string title {get; set;}
+    public decimal salary {get; set;}
 
+    public Employee(string name, string title, decimal salary){
+        
+        this.name = name;
+        this.title = title;
+        this.salary = salary; 
+    }
+
+}
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Employee employee = new Employee("Shehab","Software Engineer", 8000);
+        Console.WriteLine($"Name is {employee.name} and his title is {employee.title} and salary is {employee.salary}");
+
+    }
+}
 
 
 
